@@ -1,30 +1,33 @@
-[submodule "vendor/volk"]
-	path = vendor/volk
+[submodule "third_party/volk"]
+	path = third_party/volk
 	url = https://github.com/zeux/volk
-[submodule "vendor/glm"]
-	path = vendor/glm
+[submodule "third_party/glm"]
+	path = third_party/glm
 	url = https://github.com/g-truc/glm
-[submodule "vendor/stb"]
-	path = vendor/stb
-	url = https://github.com/nothings/stb
-[submodule "vendor/imgui"]
-	path = vendor/imgui
+[submodule "third_party/imgui"]
+	path = third_party/imgui
 	url = https://github.com/ocornut/imgui
-[submodule "vendor/glfw"]
-	path = vendor/glfw
+[submodule "third_party/stb"]
+	path = third_party/stb
+	url = https://github.com/nothings/stb
+[submodule "third_party/glfw"]
+	path = third_party/glfw
 	url = https://github.com/glfw/glfw
-[submodule "vendor/glslang"]
-	path = vendor/glslang
+[submodule "third_party/glslang"]
+	path = third_party/glslang
 	url = https://github.com/KhronosGroup/glslang
-[submodule "vendor/vma"]
-	path = vendor/vma
+[submodule "third_party/vma"]
+	path = third_party/vma
 	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
-[submodule "vendor/spdlog"]
-	path = vendor/spdlog
+[submodule "third_party/spdlog"]
+	path = third_party/spdlog
 	url = https://github.com/gabime/spdlog
-[submodule "vendor/astc"]
-	path = vendor/astc
+[submodule "third_party/astc"]
+	path = third_party/astc
 	url = https://github.com/ARM-software/astc-encoder
-[submodule "vendor/vulkan"]
-	path = vendor/vulkan
+[submodule "third_party/vulkan"]
+	path = third_party/vulkan
 	url = https://github.com/KhronosGroup/Vulkan-Headers
+[submodule "third_party/fmt"]
+	path = third_party/fmt
+	url = https://github.com/fmtlib/fmt
