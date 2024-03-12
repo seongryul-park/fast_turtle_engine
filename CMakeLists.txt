@@ -28,3 +28,15 @@ src/main.cpp
 add_executable(Vulkan_Project ${source_code})
 target_link_libraries(Vulkan_Project INTERFACE project_options)
 target_include_directories(Vulkan_Project PRIVATE source)
+target_link_libraries(${PROJECT_NAME} PUBLIC
+    volk
+    stb
+    ${ASTC_TARGET}
+    imgui
+    glm
+    glslang
+    vma
+    glslang-default-resource-limits
+    spdlog
+    glfw
+)
