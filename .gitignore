@@ -15,6 +15,8 @@ bld/
 [Ll]og/
 [Bb]uild/
 .cache/
+vendor/
+!vendor/CMakeLists.txt
 
 #  CMake files
 CMakeLists.txt.user

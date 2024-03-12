@@ -1,0 +1,30 @@
+[submodule "vendor/volk"]
+	path = vendor/volk
+	url = https://github.com/zeux/volk
+[submodule "vendor/glm"]
+	path = vendor/glm
+	url = https://github.com/g-truc/glm
+[submodule "vendor/stb"]
+	path = vendor/stb
+	url = https://github.com/nothings/stb
+[submodule "vendor/imgui"]
+	path = vendor/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "vendor/glfw"]
+	path = vendor/glfw
+	url = https://github.com/glfw/glfw
+[submodule "vendor/glslang"]
+	path = vendor/glslang
+	url = https://github.com/KhronosGroup/glslang
+[submodule "vendor/vma"]
+	path = vendor/vma
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator
+[submodule "vendor/spdlog"]
+	path = vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "vendor/astc"]
+	path = vendor/astc
+	url = https://github.com/ARM-software/astc-encoder
+[submodule "vendor/vulkan"]
+	path = vendor/vulkan
+	url = https://github.com/KhronosGroup/Vulkan-Headers
