@@ -18,14 +18,9 @@ set_target_properties(project_options PROPERTIES
 target_compile_features(project_options INTERFACE cxx_std_20)
 set_project_warnings(project_options)
 
-set(source_code 
-src/main.cpp
-#${CMAKE_CURRENT_SOURCE_DIR}/include/*.h
-#${CMAKE_CURRENT_SOURCE_DIR}/include/*.hpp
-#${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
-)
+file(GLOB_RECURSE sources src/*.cpp include/*.h)
 
-add_executable(Vulkan_Project ${source_code})
+add_executable(Vulkan_Project ${sources})
 target_link_libraries(Vulkan_Project INTERFACE project_options)
 target_include_directories(Vulkan_Project PRIVATE source)
 target_link_libraries(${PROJECT_NAME} PUBLIC
